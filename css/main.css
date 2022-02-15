@@ -1,0 +1,297 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-padding-top: 82px;
+}
+
+body {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ebecf2;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  margin: 0 auto 40px;
+  width: 60px;
+  height: 4px;
+  background-color: #1e7cf7;
+}
+
+.blue-text {
+  color: #1e7cf7;
+}
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav,
+nav a,
+.nav-link,
+i {
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.6s;
+  transition: background-color 0.6s;
+  color: #fff;
+  z-index: 1;
+}
+
+.nav-link:hover {
+  color: #1e7cf7;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.active {
+  color: #1e7cf7;
+}
+
+.fa-bars {
+  padding: 10px;
+}
+
+header {
+  color: #fff;
+}
+
+header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+header p {
+  font-size: 14px;
+}
+
+header .hero-img {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/playstation-g6853756b0_640.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+header .hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+header .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+  z-index: 0;
+}
+
+header .big-text {
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+header .btn-outline-light {
+  text-transform: uppercase;
+}
+
+header .fa-chevron-down {
+  position: absolute;
+  font-size: 60px;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #000;
+}
+
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.aboutus .aboutus-card-text {
+  font-size: 14px;
+}
+
+.aboutus .aboutus-hover {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.aboutus .aboutus-hover:hover {
+  color: #1e7cf7;
+}
+
+.aboutus-hero {
+  position: relative;
+  background-image: url(../img/technology-g0c76a15e4_640.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #ddd;
+  z-index: 0;
+}
+
+.aboutus-hero .aboutus-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.aboutus-hero .aboutus-hero-item {
+  margin: 10px 0;
+}
+
+.aboutus-hero .aboutus-hero-item i {
+  font-size: 36px;
+}
+
+.aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
+}
+
+.portfolio .carousel-item {
+  height: 600px;
+}
+
+.portfolio .carousel-inner {
+  position: relative;
+}
+
+.portfolio .carousel-inner .portfolio-shadow {
+  position: absolute;
+  bottom: 20px;
+  padding: 30px 0 10px;
+  height: 130px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ddd;
+  text-align: center;
+}
+
+.portfolio .carousel-inner h5 {
+  margin: 0;
+}
+
+.prices .price-box {
+  padding: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin: 20px 10px;
+  -webkit-transition: -webkit-transform 0.1s;
+  transition: -webkit-transform 0.1s;
+  transition: transform 0.1s;
+  transition: transform 0.1s, -webkit-transform 0.1s;
+}
+
+.prices .price-box h3 {
+  text-transform: uppercase;
+  color: #1e7cf7;
+}
+
+.prices .price-box span {
+  font-weight: bold;
+}
+
+.prices .price-box .price-tag {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.prices .price-box .btn {
+  margin-bottom: 20px;
+}
+
+.price-info {
+  margin-top: 50px;
+}
+
+.price-info a {
+  text-decoration: none;
+}
+
+.price-box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 42px;
+  }
+  header p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  nav {
+    height: 82px;
+  }
+  .price-info {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .nav-link {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header .hero-img {
+    background-image: url("../img/playstation-gef43ba933_1920.jpg");
+  }
+}
+/*# sourceMappingURL=main.css.map */
