@@ -22,14 +22,6 @@ h2 {
   text-transform: uppercase;
 }
 
-.template p {
-  background-color: aqua;
-}
-
-.template .first, .template .second, .template .third {
-  background-color: lime;
-}
-
 .underline {
   margin: 0 auto 40px;
   width: 60px;
@@ -251,7 +243,7 @@ header .fa-chevron-down {
 }
 
 .prices .price-box button {
-  padding: 10px 20px;
+  padding: 12px 20px;
   text-transform: uppercase;
 }
 
